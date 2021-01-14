@@ -1,1 +1,73 @@
-body {background: hotpink}
+body {
+    background:#b6c1c1;
+    font-family: "Raleway", sans-serif; 
+    line-height: 1,5;
+    font-size: 112,5%;
+    margin: ;
+
+}
+
+header {
+    background: #8d9e9e;
+    margin: 0;
+    color:black;
+    text-align:center ;
+}
+
+main {
+    margin: 40;
+}
+
+footer {
+
+    background: #8d9e9e;
+    margin: 0;
+    color:black;
+    text-align:center ;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+
+}
+h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+h3 {
+    font-weight: 100;
+}
+a {
+    text-decoration: none;
+    color:black;
+    border-bottom: 1px solid; /* damit die Unterstriche nicht unterbrochen werden*/
+}
+h4 {
+    margin: 0%;
+}
+
+img {
+    margin: 20;
+}
+
+figure {
+    text-align: center;
+}
+.Kontakt { 
+    text-align: center;
+    margin: 100 100;
+}
+
+.Links { text-align: center;
+    margin: 20;
+    padding: 100 100;
+    text-decoration: none;
+    border-bottom: none;
+
+}
+
+input, button {
+    font-size: 1em;
+} /* 1 em ist 1-fache der aktuell hervorherrschende Textgröße. Bezieht sich immer auf die aktuell vorherrschende Schriftgröße */

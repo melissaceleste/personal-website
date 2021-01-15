@@ -1,82 +1,118 @@
+/* 
+Farbpalette
+color: #11232f  (dunkelblau)
+color: #2d4b56  (türkis dunkelblau)
+color: #bb9c7f   (beige braun) 
+color: #e2dfda   (weiß)
+color: #ad6938   (dunkelbraun)
+
+
+*/
+
 body {
-    background:#b6c1c1;
-    font-family: "Raleway", sans-serif; 
-    line-height: 1,5;
-    font-size: 112,5%;
-    margin:20;
+  background: #e2dfda;
+  color: #11232f;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+
+  line-height: 1, 5;
+  font-size: 112, 5%;
+  margin: 20;
+  text-align: center;
 }
 
 header {
-    background: #8d9e9e;
-    margin: 0;
-    color:black;
-    text-align:center ;
+  border: 1px solid;
+  border-radius: 20px 40px;
+  border-color: #11232f;
+  margin: 0;
+  color: black;
+  text-align: center;
 }
 
 main {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
-    background: #8d9e9e;
-    margin: 0;
-    color:black;
-    text-align:center ;
+  background: #8d9e9e;
+  border-radius: 50px;
+  margin: 0;
+  color: #bb9c7f;
+  text-align: center;
 }
 
 h1 {
-    font-weight: 100;
-    font-size: 30px;
-    text-align: center;
-
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
 }
 h2 {
-    font-weight: 100;
-    font-size: 30px;
-    margin: 20px 0;
+  xborder: 1px solid;
+  border-radius: 20px 40px;
+  background: #bb9c7f;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 20px 0;
 }
 h3 {
-    font-weight: 100;
-    margin: 0;
+  font-weight: 100;
+  margin: 10px 0;
 }
 a {
-    text-decoration: none;
-    color:black;
-    border-bottom: 1px solid; /* damit die Unterstriche nicht unterbrochen werden*/
+  text-decoration: none;
+  color: #ad6938;
+  border-bottom: 1px solid; /* damit die Unterstriche nicht unterbrochen werden*/
+  margin: 30px;
 }
+
 h4 {
-    margin: 0%;
+  margin: 0%;
 }
 
 img {
-    margin: 20;
-    padding:0;
+  margin: 20;
+  padding: 20;
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 figure {
-    text-align: center;
+  text-align: center;
 }
-.Kontakt { 
-    text-align: center;
-    margin:10px;
-    border: 1px solid;
+.Fotokasten {
+  border-radius: 100px;
+  xbackground: #bb9c7f;
+  margin: 30px;
+  color: black;
+  text-align: center;
 }
 
-.flex { 
-    list-style: none;
-    display: flex; 
-    justify-content: space-evenly;
-    flex-flow: wrap;
-    padding: 0;
- }
+.Kontakt {
+  text-align: center;
+  margin: 10px;
+  border: 1px solid;
+}
 
- .flexitem {
-     background: #8d9e9e;
-     margin: 5;
+.flex {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  padding: 0;
+}
 
-
- }
+.flexitem {
+  background: #8d9e9e;
+  border-radius: 50px;
+  margin: 1px;
+  padding: 7px;
+}
 
 /*.Links { text-align: center;
     margin: 20;
@@ -88,6 +124,7 @@ figure {
 
 }*/
 
-input, button {
-    font-size: 1em;
+input,
+button {
+  font-size: 1em;
 } /* 1 em ist 1-fache der aktuell hervorherrschende Textgröße. Bezieht sich immer auf die aktuell vorherrschende Schriftgröße */

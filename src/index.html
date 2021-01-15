@@ -1,221 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8"> <!-- damit erkennt er Sonderzeichen und alle gängigen Sprache-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- damit erkennt er Sonderzeichen und alle gängigen Sprache-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- viewport: passt sich automatisch an die Größe des Devices an -->
     <title>Bewerbung Melissa Gries</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@100;400;800&family=Raleway:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <h1> Melissa Celeste Gries </h1>
-            <a href="#contact"> Kontakt</a>
-            <!-- 
+      <nav>
+        <h1>Melissa Celeste Gries</h1>
+        <a href="#contact"> contact</a>
+        <!-- 
             <a href="#kenntnisse"> Kenntnisse</a>
             <a href="#interests"> Interessen</a> -->
-            <a href="#aboutme"> Über mich</a>
-        </nav>
+        <a href="#aboutme"> about me</a>
+      </nav>
     </header>
     <main>
-        <section>
+      <section class="Fotokasten">
+        <figure>
+          <img src="images/bewerbungsfoto.jpg" alt="" width="200" />
+          <figcaption>I bims</figcaption>
+        </figure>
+      </section>
 
-            <figure>
-                <img src="images/bewerbungsfoto.jpg" alt="" width="200">
-                <figcaption>I bims</figcaption>
-            </figure>
+      <section>
+        <h2>Kenntnisse</h2>
 
-        </section>
+        <h3>Sprachkenntnisse</h3>
+        <ul class="flex">
+          <li class="flexitem">Deutsch</li>
+          <li class="flexitem">Englisch</li>
+          <li class="flexitem">Französisch</li>
+        </ul>
 
-        <section>
-            <h2> Kenntnisse </h2>
+        <h3>EDV-Kenntnisse</h3>
+        <ul class="flex">
+          <li class="flexitem">Microsoft Office</li>
+          <li class="flexitem">Skype</li>
+          <li class="flexitem">Zoom</li>
+          <li class="flexitem">Slack</li>
+          <li class="flexitem">SAP BI</li>
+          <li class="flexitem">HTML, CSS</li>
+          <li class="flexitem">Git</li>
+          <li class="flexitem">zsh</li>
+        </ul>
 
-            <h3> Sprachkenntnisse </h3>
-            <ul class="flex">
-                <li class="flexitem"> Deutsch </li>
-                <li class="flexitem"> Englisch </li>
-                <li class="flexitem">Französisch </li>
-            </ul>
+        <h3>Weitere Kenntnisse</h3>
+        <ul class="flex">
+          <li class="flexitem">Scrum Master PSMI</li>
+          <li class="flexitem">Führerschein Klasse B</li>
+          <li class="flexitem">Bunsenbrennerführerschein</li>
+        </ul>
+      </section>
 
+      <section>
+        <h2>Interessen</h2>
 
-            <h3> EDV-Kenntnisse </h3>
-            <ul class="flex">
-                <li class="flexitem"> Microsoft Office </li>
-                <li class="flexitem"> Skype </li>
-                <li class="flexitem"> Zoom </li>
-                <li class="flexitem"> Slack </li>
-                <li class="flexitem"> SAP BI </li>
-                <li class="flexitem"> HTML, CSS </li>
-                <li class="flexitem"> Git </li>
-                <li class="flexitem"> zsh </li>
-            </ul>
+        <ul class="flex">
+          <li class="flexitem">DYI-Projekte</li>
+          <li class="flexitem">Tanzen</li>
+          <li class="flexitem">Schallplatten</li>
+          <li class="flexitem">PS5</li>
+          <li class="flexitem">Brettspiele</li>
+          <li class="flexitem">Reisen</li>
+        </ul>
+      </section>
 
+      <address class="Kontakt">
+        <h2 id="contact">Kontakt</h2>
 
+        Uhlenhorster<br />
+        22... Hamburg<br />
 
-            <h3> Weitere Kenntnisse </h3>
-            <ul class="flex">
-                <li class="flexitem"> Scrum Master PSMI </li>
-                <li class="flexitem"> Führerschein Klasse B </li>
-                <li class="flexitem"> Bunsenbrennerführerschein </li>
-            </ul>
-        </section>
+        0176/ 47 80 ... <br />
 
-        <section>
-            <h2> Interessen </h2>
-
-            <ul class="flex">
-                <li class="flexitem"> DYI-Projekte </li>
-                <li class="flexitem"> Tanzen </li>
-                <li class="flexitem"> Schallplatten</li>
-                <li class="flexitem"> PS5</li>
-                <li class="flexitem"> Brettspiele</li>
-                <li class="flexitem"> Reisen</li>
-            </ul>
-
-        </section>
-
-
-        <address class="Kontakt">
-            <h2 id="contact"> Kontakt </h2>
-
-
-            Uhlenhorster<br>
-            22... Hamburg<br>
-
-            0176/ 47 80 ... <br>
-
-            m.c.gries@gmx.de <br>
-            <!-- oder doch mit Icons?: <img src="wohnort.png"> Uhlehorste..
+        m.c.gries@gmx.de <br />
+        <!-- oder doch mit Icons?: <img src="wohnort.png"> Uhlehorste..
             <img src="mobil.png"> 0176/ 47 80  <br>
             <img src="mail.png"> m.c.gries@gmx.de <br>
             -->
+      </address>
 
-        </address>
+      <section class="flex">
+        <span class="flexitem">
+          <a href="https://www.xing.com/profile/MelissaCeleste_Gries/cv"
+            ><img src="images/xing.png" width="50" alt="Xing-Profil"
+          /></a>
+        </span>
+        <span class="flexitem">
+          <a href="https://de.linkedin.com/in/melissa-gries-8005821a5"
+            ><img src="images/linkedin.png" width="50" alt="LinkedIN-Profil"
+          /></a>
+        </span>
+        <span class="flexitem">
+          <a href="https://github.com/melissaceleste"
+            ><img src="images/github.png" width="50" alt="GitHub-Profil"
+          /></a>
+        </span>
+      </section>
 
-        <section class="flex">
-            <span class="flexitem">
-                <a href="https://www.xing.com/profile/MelissaCeleste_Gries/cv"><img src="images/xing.png" width="50"
-                        alt="Xing-Profil" /></a> </span>
-            <span class="flexitem">
-                <a href="https://de.linkedin.com/in/melissa-gries-8005821a5"><img src="images/linkedin.png" width="50"
-                        alt="LinkedIN-Profil" /></a> </span>
-            <span class="flexitem">
-                <a href="https://github.com/melissaceleste"><img src="images/github.png" width="50"
-                        alt="GitHub-Profil" /></a> </span>
+      <section>
+        <h2 id="aboutme">Über mich</h2>
+        <p>
+          <i>
+            >> If you only do what you can do, you will never be more than you
+            are now.<<
+          </i>
+          <br />-Kung Fu Panda
+        </p>
+        <p>
+          Hello! <br />
+          Ich bin Melissa und komme aus dem wunderschönen Hamburg. Nachdem ich
+          BWL studiert habe, bin ich zunächst den Weg ins Personalwesen
+          eingeschlagen. Während ich tagtäglich Softwareentwickler und co. für
+          verschiedenste Unternehmen rekrutiert habe, habe ich dann irgendwann
+          festgestellt, dass mich der Beruf meiner Bewerber mehr interessierte
+          als mein Eigener. Nach nächtelangen Wachliegen und Szenariosponnerei
+          habe ich dann schlussendlich meinen Mut zusammengefasst und den
+          Schritt gewagt, zu kündigen. Mit neufische versuche ich meinem Traum
+          Entwicklerin zu werden, nun endlich zu verwirklichen. ....
+        </p>
+      </section>
 
-        </section>
+      <section>
+        <h3>Persönliche Daten</h3>
+        Geboren: 30.01.1995<br />
 
-        <section>
+        Familienstand: ledig <br />
 
-            <h2 id="aboutme"> Über mich </h2>
-            <p>
-                <i> >> If you only do what you can do, you will never be more than you are now.<< </i>
-                        <br>-Kung Fu Panda
-            </p>
-            <p>
-                Hello! <br>
-                Ich bin Melissa und komme aus dem wunderschönen Hamburg.
-                Nachdem ich BWL studiert habe, bin ich zunächst den Weg ins Personalwesen eingeschlagen.
-                Während ich tagtäglich Softwareentwickler und co. für verschiedenste Unternehmen rekrutiert
-                habe, habe ich dann irgendwann festgestellt, dass mich der Beruf meiner Bewerber mehr interessierte als
-                mein
-                Eigener.
-                Nach nächtelangen Wachliegen und Szenariosponnerei habe ich dann schlussendlich meinen Mut
-                zusammengefasst
-                und den Schritt gewagt, zu kündigen.
-                Mit neufische versuche ich meinem Traum Entwicklerin zu werden, nun endlich zu verwirklichen.
-                ....
-            </p>
-        </section>
+        Staatsangehörigkeit: Deutsch<br />
 
-        <section>
+        <h3>Beruflicher Werdegang</h3>
+        01/2019 - 01/2020 <br />
 
-            <b> Persönliche Daten <br>
-                Geboren: <br>
-                Familienstand: <br>
-                Staatsangehörigkeit: <br> </b>
+        Recruiting Specialist/Account Manager <br />
+        Hays, Hamburg <br />
+        <ul>
+          <li>
+            Rekrutierung von Fach- und Führungskräften mit dem Schwerpunkt IT
+            (IT- Supporter, -Administratoren, Softwaretester,
+            Projektassistenzen, Projektmanager, Teamleiter, Assistenz der
+            Geschäftsführung, HR-Assistenz, HR-Referenten)
+          </li>
+          <li>Kundenakquise/ Kaltakquise unter Erreichung eines Budgets</li>
+          <li>Erstellung von Stellenanzeigen</li>
+          <li>Active Sourcing über die BAA, LinkedIN, Xing und Stepstone</li>
+          <li>Sichtung von Bewerbungen, Schreiben von Absagen</li>
+          <li>
+            Eigenständige Durchführung von Telefoninterviews und
+            Vorstellungsgesprächen, sowie Vertragsunterzeichnungen
+          </li>
+          <li>Bewerbercoaching (Lebenslauf und Vorstellungsgespräche)</li>
+          <li>Ansprechpartner für Bewerber und Mitarbeiter</li>
+          <li>
+            Mitarbeit in kleineren Projekten (Einführung einer Website für
+            externe Mitarbeiter, Kandidatenticker für Kunden)
+          </li>
+        </ul>
 
-            <br>
-            30.01.1995 <br>
-            ledig <br>
-            Deutsch
-            <br>
+        05/2017 - 09/2017 <br />
+        Praktikantin im Recruiting <br />
+        Amadeus FiRe AG, Hamburg <br />
+        <ul>
+          <li>Unterstützung des Bewerbermanagements</li>
+          <li>Unterstützung bei der Schaltung von Stellenanzeigen</li>
+          <li>Sichtung und Vorauswahl der eingehenden Bewerbungen</li>
+          <li>Durchführung telefonischer Bewerbungsgespräche</li>
+          <li>Eigenverantwortliche Pflege des Bewerbernetzwerkes</li>
+          <li>Unterstützung bei Fachvorträgen</li>
+        </ul>
 
-
-
-            <b> Beruflicher Werdegang </b>
-            01/2019 - 01/2020 <br>
-
-            Recruiting Specialist/Account Manager <br>
-            Hays, Hamburg <br>
-            <ul>
-                <li> Rekrutierung von Fach- und Führungskräften mit dem Schwerpunkt IT (IT-
-                    Supporter, -Administratoren, Softwaretester, Projektassistenzen, Projektmanager, Teamleiter,
-                    Assistenz der Geschäftsführung, HR-Assistenz, HR-Referenten) </li>
-                <li> Kundenakquise/ Kaltakquise unter Erreichung eines Budgets </li>
-                <li> Erstellung von Stellenanzeigen</li>
-                <li> Active Sourcing über die BAA, LinkedIN, Xing und Stepstone</li>
-                <li> Sichtung von Bewerbungen, Schreiben von Absagen</li>
-                <li> Eigenständige Durchführung von Telefoninterviews und
-                    Vorstellungsgesprächen, sowie Vertragsunterzeichnungen</li>
-                <li> Bewerbercoaching (Lebenslauf und Vorstellungsgespräche) </li>
-                <li> Ansprechpartner für Bewerber und Mitarbeiter</li>
-                <li> Mitarbeit in kleineren Projekten (Einführung einer Website für externe
-                    Mitarbeiter, Kandidatenticker für Kunden) </li>
-
-            </ul>
-
-
-            05/2017 - 09/2017 <br>
-            Praktikantin im Recruiting <br>
-            Amadeus FiRe AG, Hamburg <br>
-            <ul>
-                <li> Unterstützung des Bewerbermanagements </li>
-                <li> Unterstützung bei der Schaltung von Stellenanzeigen </li>
-                <li> Sichtung und Vorauswahl der eingehenden Bewerbungen ➢ Vor- & Nachbereitung von
-                    Bewerbungsgesprächen</li>
-                <li> Durchführung telefonischer Bewerbungsgespräche</li>
-                <li> Eigenverantwortliche Pflege des Bewerbernetzwerkes</li>
-                <li> Unterstützung bei Fachvorträgen</li>
-            </ul>
-
-            04/2018 - 12/2018 <br>
-            Sales Advisor (Nebenjob) <br>
-            H&M, Hamburg <br>
-            09/2016 - 10/2016
-            Produktionshelfer (Nebenjob) <br>
-            ZF Friedrichshafen, Diepholz <br>
-            2012 - 2013
-            Servicekraft (Nebenjob) <br>
-            Gasthaus Recker, Diepholz <br>
-            <b> Studium und Schule </b> <br>
-            09/2014 - 07/2018 <br>
-            Bachelor of Arts <br>
-            Betriebswirtschaftslehre<br>
-            University of Applied Sciences, Kiel
-            09/2011 -07/2014
-            Allgemeine Hochschulreife <br>
-            BBZ Dr. Jürgen Uldrup, Diepholz
-            <b> Auslandserfahrung </b> <br>
-            01/2017 - 04/2017
-            Auslandssemester<br>
-            ISEM Montpeller, Frankreich
-
-        </section>
-
+        04/2018 - 12/2018 <br />
+        Sales Advisor (Nebenjob) <br />
+        H&M, Hamburg <br />
+        09/2016 - 10/2016 Produktionshelfer (Nebenjob) <br />
+        ZF Friedrichshafen, Diepholz <br />
+        2012 - 2013 Servicekraft (Nebenjob) <br />
+        Gasthaus Recker, Diepholz <br />
+        <h3>Studium und Schule</h3>
+        09/2014 - 07/2018 <br />
+        Bachelor of Arts <br />
+        Betriebswirtschaftslehre<br />
+        University of Applied Sciences, Kiel <br />
+        09/2011 -07/2014 <br />
+        Allgemeine Hochschulreife <br />
+        BBZ Dr. Jürgen Uldrup, Diepholz <br />
+        <h3>Auslandserfahrung</h3>
+        01/2017 - 04/2017 <br />
+        Auslandssemester<br />
+        ISEM Montpeller, Frankreich
+      </section>
     </main>
+
     <footer>
-        <p> &copy; Copyright 2021 Melissa Gries </p>
+      <p>&copy; Copyright 2021 Melissa Gries</p>
     </footer>
-
-
-</body>
-
+  </body>
 </html>

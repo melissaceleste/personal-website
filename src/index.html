@@ -13,67 +13,97 @@
       rel="stylesheet"
     />
   </head>
-  <!------------------------------- header ---------------------------->
+  
   <body>
+
     <header>
       <nav>
         <h1>Melissa Celeste Gries</h1>
+    </header>
         <a href="#contact"> contact</a>
         <!-- 
             <a href="#kenntnisse"> Kenntnisse</a>
             <a href="#interests"> Interessen</a> -->
         <a href="#aboutme"> about me</a>
       </nav>
-    </header>
-    <!------------------------------- header  ---------------------------->
-    <!------------------------------- main ---------------------------->
+   
     <main>
+        
       <section class="Fotokasten">
         <!-- <figure> -->
         <img src="images/bewerbungsfoto.jpg" alt="" width="200" />
         <!--  <figcaption>I bims</figcaption>
         </figure> -->
       </section>
-      <!---------------------------->
+
+      <section>
+        <h2 id="aboutme">about me</h2>
+        <p>
+          <i>
+            >> If you only do what you can do, you will never be more than you
+            are now.<<
+          </i>
+          <br />-Kung Fu Panda
+        </p>
+        <p>
+          Hello! <br>
+          Ich bin Melissa und komme aus dem wunderschönen Hamburg. Nachdem ich
+          BWL studiert habe, bin ich zunächst den Weg ins Personalwesen
+          eingeschlagen. Während ich tagtäglich Softwareentwickler und co. für
+          verschiedenste Unternehmen rekrutiert habe, habe ich dann irgendwann
+          festgestellt, dass mich der Beruf meiner Bewerber mehr interessierte
+          als mein Eigener. Nach nächtelangen Wachliegen und Szenariosponnerei
+          habe ich dann schlussendlich meinen Mut zusammengefasst und den
+          Schritt gewagt, zu kündigen. Mit neufische versuche ich meinem Traum
+          Entwicklerin zu werden, nun endlich zu verwirklichen. ....
+        </p>
+      </section>
+     
       <address class="Kontakt">
         <h2 id="contact">contact</h2>
         <a href="tel:+4917647801252">
           <img
             src="images/mobil.png"
             alt="Handynummer"
-            class="flexitem"
+            class="contact-item"
             width="50"
-          />
-        </a>
+          /></a>
         <a href="mailto:m.c.gries@gmx.de">
           <img
             src="images/mail.png"
             alt="E-Mail-Adresse"
-            class="flexitem"
+            class="contact-item"
             width="50"
-          />
-        </a>
-
-        <section class="flex">
-          <span class="flexitem">
-            <a href="https://www.xing.com/profile/MelissaCeleste_Gries/cv"
-              ><img src="images/xing.png" width="50" alt="Xing-Profil"
-            /></a>
-          </span>
-          <span class="flexitem">
-            <a href="https://de.linkedin.com/in/melissa-gries-8005821a5"
-              ><img src="images/linkedin.png" width="50" alt="LinkedIN-Profil"
-            /></a>
-          </span>
-          <span class="flexitem">
-            <a href="https://github.com/melissaceleste"
-              ><img src="images/github.png" width="50" alt="GitHub-Profil"
-            /></a>
-          </span>
-        </section>
+          /></a>
+  
+        <a href="https://www.xing.com/profile/MelissaCeleste_Gries/cv"
+          ><img
+            src="images/xing.png"
+            width="50"
+            alt="Xing-Profil"
+            class="contact-item"
+        /></a>
+  
+        <a href="https://de.linkedin.com/in/melissa-gries-8005821a5"
+          ><img
+            src="images/linkedin.png"
+            width="50"
+            alt="LinkedIN-Profil"
+            class="contact-item"
+        /></a>
+  
+        <a href="https://github.com/melissaceleste"
+          ><img
+            src="images/github.png"
+            width="50"
+            alt="GitHub-Profil"
+            class="contact-item"
+        /></a>
       </address>
-      <!---------------------------->
+
+      
       <section>
+       
         <h2>Kenntnisse</h2>
 
         <h3>Sprachkenntnisse</h3>
@@ -104,8 +134,7 @@
       </section>
 
       <section>
-        <h2>Interessen</h2>
-
+        <h3>Interessen</h3>
         <ul class="flex">
           <li class="flexitem">DYI-Projekte</li>
           <li class="flexitem">Tanzen</li>
@@ -116,42 +145,12 @@
         </ul>
       </section>
 
-      <section>
-        <h2 id="aboutme">Über mich</h2>
-        <p>
-          <i>
-            >> If you only do what you can do, you will never be more than you
-            are now.<<
-          </i>
-          <br />-Kung Fu Panda
-        </p>
-        <p>
-          Hello! <br />
-          Ich bin Melissa und komme aus dem wunderschönen Hamburg. Nachdem ich
-          BWL studiert habe, bin ich zunächst den Weg ins Personalwesen
-          eingeschlagen. Während ich tagtäglich Softwareentwickler und co. für
-          verschiedenste Unternehmen rekrutiert habe, habe ich dann irgendwann
-          festgestellt, dass mich der Beruf meiner Bewerber mehr interessierte
-          als mein Eigener. Nach nächtelangen Wachliegen und Szenariosponnerei
-          habe ich dann schlussendlich meinen Mut zusammengefasst und den
-          Schritt gewagt, zu kündigen. Mit neufische versuche ich meinem Traum
-          Entwicklerin zu werden, nun endlich zu verwirklichen. ....
-        </p>
-      </section>
-
-      <section>
-        <h3>Persönliche Daten</h3>
-        Geboren: 30.01.1995<br />
-
-        Familienstand: ledig <br />
-
-        Staatsangehörigkeit: Deutsch<br />
-
-        <h3>Beruflicher Werdegang</h3>
-        01/2019 - 01/2020 <br />
-
-        Recruiting Specialist/Account Manager <br />
-        Hays, Hamburg <br />
+      <section class="cv-rahmen">
+        <h2>Beruflicher Werdegang</h2>
+        <h4 class="cv">  
+        01/2019 - 01/2020 <br>
+        Recruiting Specialist/Account Manager <br>
+        Hays, Hamburg </h4> 
         <ul>
           <li>
             Rekrutierung von Fach- und Führungskräften mit dem Schwerpunkt IT
@@ -174,10 +173,10 @@
             externe Mitarbeiter, Kandidatenticker für Kunden)
           </li>
         </ul>
-
-        05/2017 - 09/2017 <br />
-        Praktikantin im Recruiting <br />
-        Amadeus FiRe AG, Hamburg <br />
+        <h4 class="cv">  
+        05/2017 - 09/2017 <br>
+        Praktikantin im Recruiting <br>
+        Amadeus FiRe AG, Hamburg </h4> 
         <ul>
           <li>Unterstützung des Bewerbermanagements</li>
           <li>Unterstützung bei der Schaltung von Stellenanzeigen</li>
@@ -187,30 +186,46 @@
           <li>Unterstützung bei Fachvorträgen</li>
         </ul>
 
-        04/2018 - 12/2018 <br />
-        Sales Advisor (Nebenjob) <br />
-        H&M, Hamburg <br />
-        09/2016 - 10/2016 Produktionshelfer (Nebenjob) <br />
-        ZF Friedrichshafen, Diepholz <br />
-        2012 - 2013 Servicekraft (Nebenjob) <br />
-        Gasthaus Recker, Diepholz <br />
+        <h4 class="cv">  
+        04/2018 - 12/2018 <br>
+        Sales Advisor (Nebenjob) <br>
+        H&M, Hamburg  </h4> <br>
+        <h4 class="cv">  
+         09/2016 - 10/2016 Produktionshelfer (Nebenjob) <br>
+        ZF Friedrichshafen, Diepholz  </h4> <br>
+        <h4 class="cv">  
+        2012 - 2013 Servicekraft (Nebenjob) <br>
+        Gasthaus Recker, Diepholz </h4> 
+
         <h3>Studium und Schule</h3>
-        09/2014 - 07/2018 <br />
-        Bachelor of Arts <br />
-        Betriebswirtschaftslehre<br />
-        University of Applied Sciences, Kiel <br />
-        09/2011 -07/2014 <br />
-        Allgemeine Hochschulreife <br />
-        BBZ Dr. Jürgen Uldrup, Diepholz <br />
+        
+        <h4 class="cv"> 
+        09/2014 - 07/2018 </h4><br>
+        Bachelor of Arts <br>
+        Betriebswirtschaftslehre<br>
+        University of Applied Sciences, Kiel   <br>
+        <h4 class="cv"> 
+        09/2011 -07/2014 </h4>  <br>
+        Allgemeine Hochschulreife <br>
+        BBZ Dr. Jürgen Uldrup, Diepholz  <br>
+        
+        
         <h3>Auslandserfahrung</h3>
-        01/2017 - 04/2017 <br />
-        Auslandssemester<br />
-        ISEM Montpeller, Frankreich
-      </section>
-    </main>
-    <!------------------------------- main ---------------------------->
+
+        <h4 class="cv"> 
+        01/2017 - 04/2017 </h4> <br>
+        Auslandssemester<br>
+        ISEM Montpeller, Frankreich 
+    
+    </section>
+    
+</main>
+    
+
     <footer>
-      <p>&copy;2021 Melissa Gries</p>
+      <p> &copy;2021 Melissa Gries</p>
     </footer>
+
   </body>
+
 </html>

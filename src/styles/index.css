@@ -322,7 +322,7 @@ button {
 }
 
 /* CSS-Styles, die nur auf Bildschirmen mit einer Breite zwischen 801 und 1024 Pixeln angewendet werden */
-@media (min-width: 801px) and (max-width: 1024px) {
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
   .container-header {
     xheight: 900px;
     display: grid;
@@ -330,12 +330,13 @@ button {
     grid-template-columns: 1fr;
   }
 
+  /*
   .container-main {
     xheight: 900px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+  } */
 
   .container-footer {
     xheight: 900px;
@@ -351,6 +352,19 @@ button {
     grid-row-end: 1;
   }
 
+  .containerflex1 {
+    display: flex;
+  }
+
+  .containerflex2 {
+    display: flex;
+  }
+
+  .containerflex3 {
+    display: flex;
+  }
+
+  /*
   .griditem-Foto {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -427,7 +441,7 @@ button {
     grid-row-start: 4;
     grid-row-end: 6;
   }
-
+*/
   .griditem-footer {
     grid-column-start: 1;
     grid-column-end: 4;

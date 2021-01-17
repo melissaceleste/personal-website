@@ -9,29 +9,6 @@ color: #ad6938   (dunkelbraun)
 
 */
 
-/* Mobile/Smartphone - Portrait-Modus */
-@media only screen and (min-width: 320px) and (max-width: 479px),
-  only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation: portrait),
-  only screen and (-o-min-device-pixel-ratio: 3/2) and (orientation: portrait),
-  only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait),
-  only screen and (min-device-pixel-ratio: 1.5) and (orientation: portrait),
-  only screen and (min-resolution: 1.5dppx) and (orientation: portrait) {
-}
-
-/* Mobile/Smartphone - Landscape-Modus */
-@media only screen and (min-width: 480px) and (max-width: 767px),
-  only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation: landscape),
-  only screen and (-o-min-device-pixel-ratio: 3/2) and (orientation: landscape),
-  only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
-  only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape),
-  only screen and (min-resolution: 1.5dppx) and (orientation: landscape) {
-}
-
-/* Mobile/Tablets - Portrait-Modus */
-@media only screen and (min-width: 768px) and (max-width: 959px),
-  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-}
-
 body {
   background: #e2dfda;
   color: #11232f;
@@ -134,6 +111,7 @@ ul {
 }
 
 .Kontakt {
+  display: flex;
   text-align: center;
   margin: 10px;
   border: 1px solid;
@@ -181,3 +159,279 @@ input,
 button {
   font-size: 1em;
 } /* 1 em ist 1-fache der aktuell hervorherrschende Textgröße. Bezieht sich immer auf die aktuell vorherrschende Schriftgröße */
+
+/* CSS-Styles, die nur auf Bildschirmen bis 480 Pixel Breite angewendet werden */
+@media (max-width: 480px) {
+  body {
+    background: #e2dfda;
+    color: #11232f;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+    line-height: 1, 5;
+    font-size: 112, 5%;
+    margin: 60px 20px;
+    text-align: center;
+  }
+
+  header {
+    /* 
+    border: 1px solid;
+    border-radius: 20px 40px;
+    border-color: #11232f;
+    margin: 0;
+    color: black;
+    text-align: center;*/
+
+    background: #2d4b56;
+    border-radius: 20px 40px;
+    margin: 0;
+    color: #e2dfda;
+    text-align: center;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    background: #8d9e9e;
+    border-radius: 20px 40px;
+    margin: 0;
+    color: #bb9c7f;
+    text-align: center;
+  }
+
+  h1 {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    xborder: 1px solid;
+    border-radius: 20px 40px;
+    background: #bb9c7f;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 45px 0;
+  }
+  h3 {
+    font-weight: 100;
+    margin: 30px 0px 0px;
+  }
+  a {
+    text-decoration: none;
+    color: #ad6938;
+    border-bottom: 1px solid; /* damit die Unterstriche nicht unterbrochen werden*/
+    margin: 30px;
+  }
+
+  h4 {
+    margin-top: 1em;
+    margin-bottom: 0em;
+  }
+
+  img {
+    margin: 20;
+    padding: 20;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  -------header-box {
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
+  }
+
+  .Fotokasten {
+    border-radius: 100px;
+    xbackground: #bb9c7f;
+    margin: 30px;
+    color: black;
+    text-align: center;
+  }
+
+  .Kontakt {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+  }
+
+  .flex {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    padding: 0;
+  }
+
+  .cv-rahmen {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .contact-item {
+    border-radius: 0px;
+    margin: 1px;
+    padding: 7px;
+  }
+
+  .flexitem {
+    background: #8d9e9e;
+    border-radius: 50px;
+    margin: 1px;
+    padding: 7px;
+  }
+
+  /*.Links { text-align: center;
+      margin: 20;
+      padding: 100 100;
+      text-decoration: none;
+      border-bottom: none;
+  }
+  .Logo {
+  
+  }*/
+
+  input,
+  button {
+    font-size: 1em;
+  } /* 1 em ist 1-fache der aktuell hervorherrschende Textgröße. Bezieht sich immer auf die aktuell vorherrschende Schriftgröße */
+}
+
+/* CSS-Styles, die nur auf Bildschirmen bis 800 Pixel Breite angewendet werden */
+@media (max-width: 800px) {
+  body {
+    margin: 80px 60px;
+    text-align: center;
+  }
+}
+
+/* CSS-Styles, die nur auf Bildschirmen mit einer Breite zwischen 801 und 1024 Pixeln angewendet werden */
+@media (min-width: 801px) and (max-width: 1024px) {
+  .container-header {
+    xheight: 900px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .container-main {
+    xheight: 900px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .container-footer {
+    xheight: 900px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .griditem-header {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .griditem-Foto {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .griditem-aboutmetext {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .griditem-kontakt {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .griditem-kenntnisse {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .griditem-sprachkenntnisse {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .griditem-edvkenntnisse {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .griditem-sprachkenntnisse {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .griditem-interessen {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .griditem-beruflicherwerdegang {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .griditem-berufe {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+
+  .griditem-schule {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+
+  .griditem-footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 12;
+  }
+}

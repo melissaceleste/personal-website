@@ -15,8 +15,10 @@
   </head>
 
   <body>
-    <header> 
-    <nav>
+
+<section class="container-header">
+    <header class=""> 
+    <nav class="griditem-header" >
       <h1>Melissa Celeste Gries</h1> </header>
 
       <a href="#aboutme"> about me</a>
@@ -25,16 +27,19 @@
             <a href="#kenntnisse"> Kenntnisse</a>
             <a href="#interests"> Interessen</a> -->
     </nav>
+</section>
+ 
 
-    <main>
-      <section class="Fotokasten">
+    <main class="container-main">
+      
+      <section class="Fotokasten" class="griditem-Foto">
         <!-- <figure> -->
         <img src="images/bewerbungsfoto.jpg" alt="" width="200" />
         <!--  <figcaption>I bims</figcaption>
         </figure> -->
       </section>
 
-      <section>
+      <section class="griditem-aboutmetext">
         <h2 id="aboutme">about me</h2>
         <p>
           <i>
@@ -57,7 +62,7 @@
         </p>
       </section>
 
-      <address class="Kontakt">
+      <address class="Kontakt" class="griditem-kontakt">
         <h2 id="contact">contact</h2>
         <a href="tel:+4917647801252">
           <img
@@ -98,17 +103,22 @@
             class="contact-item"
         /></a>
       </address>
-
+    
       <section>
+      <section class="griditem-kenntnisse"> 
         <h2>Kenntnisse</h2>
+      </section>
 
+      <section class="griditem-sprachkenntnisse"> 
         <h3>Sprachkenntnisse</h3>
         <ul class="flex">
           <li class="flexitem">Deutsch</li>
           <li class="flexitem">Englisch</li>
           <li class="flexitem">Französisch</li>
         </ul>
+      </section>
 
+      <section class="griditem-edvkenntnisse"> 
         <h3>EDV-Kenntnisse</h3>
         <ul class="flex">
           <li class="flexitem">Microsoft Office</li>
@@ -120,7 +130,9 @@
           <li class="flexitem">Git</li>
           <li class="flexitem">zsh</li>
         </ul>
+      </section>
 
+      <section class="griditem-sprachkenntnisse"> 
         <h3>Weitere Kenntnisse</h3>
         <ul class="flex">
           <li class="flexitem">Scrum Master PSMI</li>
@@ -128,8 +140,9 @@
           <li class="flexitem">Bunsenbrennerführerschein</li>
         </ul>
       </section>
+      </section>
 
-      <section>
+      <section class="griditem-interessen">
         <h3>Interessen</h3>
         <ul class="flex">
           <li class="flexitem">DYI-Projekte</li>
@@ -142,7 +155,8 @@
       </section>
 
       <section class="cv-rahmen">
-        <h2>Beruflicher Werdegang</h2>
+        <h2 class="griditem-beruflicherwerdegang">Beruflicher Werdegang</h2>
+      <section class="griditem-berufe">
         <h4 class="cv">
           01/2019 - 01/2020 <br />
           Recruiting Specialist/Account Manager <br />
@@ -170,6 +184,7 @@
             externe Mitarbeiter, Kandidatenticker für Kunden)
           </li>
         </ul>
+     
         <h4 class="cv">
           05/2017 - 09/2017 <br />
           Praktikantin im Recruiting <br />
@@ -199,7 +214,8 @@
           2012 - 2013 Servicekraft (Nebenjob) <br />
           Gasthaus Recker, Diepholz
         </h4>
-
+      </div>
+      <section class="griditem-schule">
         <h3>Studium und Schule</h3>
 
         <h4 class="cv">09/2014 - 07/2018</h4>
@@ -219,10 +235,14 @@
         Auslandssemester<br />
         ISEM Montpeller, Frankreich
       </section>
+      </section>
     </main>
 
-    <footer>
-      <p>&copy;2021 Melissa Gries</p>
+    <footer class="container-footer">
+      <p> &copy;2021 Melissa Gries</p>
     </footer>
+
+</section>
+
   </body>
 </html>

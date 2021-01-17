@@ -215,7 +215,20 @@ button {
 }
 
 /* CSS-Styles, die nur auf Bildschirmen mit einer Breite zwischen 801 und 1024 Pixeln angewendet werden */
-@media only screen and (min-width: 801px) and (max-width: 1024px) {
+@media only screen and (min-width: 801px) {
+  body {
+    background: #e2dfda;
+    color: #11232f;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+    line-height: 1, 5;
+    font-size: 112, 5%;
+    margin: 60px 20px;
+    text-align: center;
+  }
+
   .container-header {
     display: grid;
     grid-template-rows: 1fr;

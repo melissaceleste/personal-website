@@ -9,6 +9,29 @@ color: #ad6938   (dunkelbraun)
 
 */
 
+/* Mobile/Smartphone - Portrait-Modus */
+@media only screen and (min-width: 320px) and (max-width: 479px),
+  only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation: portrait),
+  only screen and (-o-min-device-pixel-ratio: 3/2) and (orientation: portrait),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait),
+  only screen and (min-device-pixel-ratio: 1.5) and (orientation: portrait),
+  only screen and (min-resolution: 1.5dppx) and (orientation: portrait) {
+}
+
+/* Mobile/Smartphone - Landscape-Modus */
+@media only screen and (min-width: 480px) and (max-width: 767px),
+  only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation: landscape),
+  only screen and (-o-min-device-pixel-ratio: 3/2) and (orientation: landscape),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
+  only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape),
+  only screen and (min-resolution: 1.5dppx) and (orientation: landscape) {
+}
+
+/* Mobile/Tablets - Portrait-Modus */
+@media only screen and (min-width: 768px) and (max-width: 959px),
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
 body {
   background: #e2dfda;
   color: #11232f;
@@ -23,17 +46,18 @@ body {
 }
 
 header {
-  /* border: 1px solid;
+  /* 
+  border: 1px solid;
   border-radius: 20px 40px;
   border-color: #11232f;
   margin: 0;
   color: black;
-  text-align: center; */
+  text-align: center;*/
 
-  background: #8d9e9e;
+  background: #2d4b56;
   border-radius: 20px 40px;
   margin: 0;
-  color: #11232f;
+  color: #e2dfda;
   text-align: center;
 }
 
@@ -92,6 +116,15 @@ img {
 figure {
   text-align: center;
 }
+
+ul {
+  padding: 0;
+}
+
+-------header-box {
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
+
 .Fotokasten {
   border-radius: 100px;
   xbackground: #bb9c7f;
@@ -104,6 +137,7 @@ figure {
   text-align: center;
   margin: 10px;
   border: 1px solid;
+  padding: 10px;
 }
 
 .flex {
@@ -116,6 +150,8 @@ figure {
 
 .cv-rahmen {
   border: 1px solid;
+  padding: 10px;
+  margin: 10px;
 }
 
 .contact-item {

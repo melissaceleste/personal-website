@@ -232,7 +232,24 @@ button {
     grid-template-columns: 1fr;
   }
   .contact-style {
-    margin: 0px 50px;
+    margin: 0px 140px;
+  }
+  .style-sprachkenntnisse {
+    margin: 0px 40px;
+  }
+  .style-edvkenntnisse {
+    margin: 0px 40px;
+  }
+
+  .style-weiterekenntnisse {
+    margin: 0px 40px;
+  }
+
+  .style-beruflicher-werdegang {
+    margin: 0px 150px 0px 40px;
+  }
+  .style-studium {
+    margin: 0px 100px 0px 0px;
   }
 
   .griditem-header {
@@ -259,5 +276,15 @@ button {
     grid-column-end: 4;
     grid-row-start: 11;
     grid-row-end: 12;
+  }
+
+  h2 {
+    xborder: 1px solid;
+    border-radius: 20px 40px;
+    background: #bb9c7f;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 45px 0;
+    width: 1100;
   }
 }

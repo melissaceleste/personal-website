@@ -57,7 +57,6 @@ h1 {
   text-align: center;
 }
 h2 {
-  xborder: 1px solid;
   border-radius: 20px 40px;
   background: #bb9c7f;
   font-weight: 100;
@@ -98,13 +97,9 @@ ul {
   padding: 0;
 }
 
--------header-box {
-  box-shadow: 3px 3px red, -1em 0 0.4em olive;
-}
-
 .Fotokasten {
   border-radius: 100px;
-  xbackground: #bb9c7f;
+
   margin: 30px;
   color: black;
   text-align: center;
@@ -188,7 +183,6 @@ button {
     margin: 5px 0;
   }
   h2 {
-    xborder: 1px solid;
     border-radius: 20px 40px;
     background: #bb9c7f;
     font-weight: 100;
@@ -279,12 +273,39 @@ button {
   }
 
   h2 {
-    xborder: 1px solid;
     border-radius: 20px 40px;
     background: #bb9c7f;
     font-weight: 100;
     font-size: 30px;
     margin: 45px 0;
     width: 1100;
+  }
+}
+
+/* CSS-Styles, die nur auf Bildschirmen mit einer Breite zwischen ab 1180 Pixeln angewendet werden */
+@media only screen and (min-width: 1180px) {
+  body {
+    margin: 60px 100px;
+  }
+
+  .contact-style {
+    margin: 0px 160px;
+  }
+  .style-sprachkenntnisse {
+    margin: 0px 50px;
+  }
+  .style-edvkenntnisse {
+    margin: 0px 50px;
+  }
+
+  .style-weiterekenntnisse {
+    margin: 0px 50px;
+  }
+
+  .style-beruflicher-werdegang {
+    margin: 0px 200px 0px 80px;
+  }
+  .style-studium {
+    margin: 0px px 0px 0px;
   }
 }

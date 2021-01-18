@@ -1,0 +1,112 @@
+body {
+  background: #e2dfda;
+  color: #11232f;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+
+  line-height: 1, 5;
+  font-size: 112, 5%;
+  margin: 60px 20px;
+  text-align: center;
+}
+
+header {
+  background: #2d4b56;
+  border-radius: 20px 40px;
+  margin: 0;
+  color: #e2dfda;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: #8d9e9e;
+  border-radius: 20px 40px;
+  margin: 0;
+  color: #bb9c7f;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  border-radius: 20px 40px;
+  background: #bb9c7f;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 45px 0;
+}
+h3 {
+  font-weight: 100;
+  margin: 30px 0px 0px;
+}
+a {
+  text-decoration: none;
+  color: #ad6938;
+  border-bottom: 1px solid;
+  margin: 30px;
+}
+
+h4 {
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+figure {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.Kontakt {
+  display: flex;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.Fotokasten {
+  border-radius: 100px;
+
+  margin: 30px;
+  color: black;
+  text-align: center;
+}
+
+.flex {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  padding: 0;
+}
+
+.cv-rahmen {
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contact-item {
+  border-radius: 0px;
+  margin: 1px;
+  padding: 7px;
+}
+
+.flexitem {
+  background: #8d9e9e;
+  border-radius: 50px;
+  margin: 1px;
+  padding: 7px;
+}

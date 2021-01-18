@@ -1,0 +1,15 @@
+@media only screen and (min-width: 801px) {
+  .contact-style {
+    margin: 0px 140px;
+  }
+}
+@media only screen and (min-width: 1190px) {
+  .contact-style {
+    margin: 0px 160px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .contact-style {
+    margin: 0px 260px;
+  }
+}

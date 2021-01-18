@@ -1,0 +1,10 @@
+@media only screen and (min-width: 801px) {
+  .style-sprachkenntnisse {
+    margin: 0px 40px;
+  }
+}
+@media only screen and (min-width: 1190px) {
+  .style-sprachkenntnisse {
+    margin: 0px 50px;
+  }
+}

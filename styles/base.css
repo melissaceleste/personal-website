@@ -5,8 +5,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Raleway', sans-serif;
 
-  line-height: 1, 5;
-  font-size: 112, 5%;
+  line-height: 1.5;
+  font-size: 112.5%;
   margin: 0;
   text-align: center;
   padding: 0;
@@ -36,11 +36,13 @@ footer {
 }
 
 h1 {
-  font-weight: 100px;
+  font-weight: lighter;
+  color: #11232f;
   font-size: 30px;
   text-align: center;
   margin-top: 40px;
 }
+
 h2 {
   border-radius: 20px 40px;
   background: #bb9c7f;
@@ -48,10 +50,12 @@ h2 {
   font-size: 30px;
   margin: 45px 0;
 }
+
 h3 {
   font-weight: 100;
   margin: 30px 0px 0px;
 }
+
 a {
   text-decoration: none;
   color: ivory;
@@ -72,11 +76,11 @@ figure {
 
 ul {
   padding: 0;
+  margin: 5px 20px 20px;
 }
 
 .Fotokasten {
   border-radius: 100px;
-
   margin: 70px 60px;
   color: black;
   text-align: center;
@@ -94,6 +98,12 @@ ul {
   padding: 10px;
 }
 
+.contact-item {
+  border-radius: 0px;
+  margin: 1px;
+  padding: 7px;
+}
+
 .flex {
   list-style: none;
   display: flex;
@@ -102,21 +112,38 @@ ul {
   padding: 0;
 }
 
+.flexitem {
+  background: #8d9e9e;
+  border-radius: 50px;
+  margin: 1px;
+  padding: 7px;
+}
+
+.style-sprachkenntnisse {
+  margin: 0 20px 0 40px;
+  padding: 0 20px 0 40px;
+}
+
+.style-edvkenntnisse {
+  margin: 0 20px 0 40px;
+  padding: 0 20px 0 40px;
+}
+.style-sprachkenntnisse {
+  margin: 0 20px 0 40px;
+  padding: 0 20px 0 40px;
+}
+
 .cv-rahmen {
   border: 1px solid;
   padding: 10px;
   margin: 10px;
 }
 
-.contact-item {
-  border-radius: 0px;
-  margin: 1px;
-  padding: 7px;
+.style-beruflicher-werdegang {
+  margin: 0px 10px 0px 10px;
 }
 
-.flexitem {
-  background: #8d9e9e;
-  border-radius: 50px;
-  margin: 1px;
-  padding: 7px;
+.style-studium {
+  margin: 0px 20px 0px 0px;
+  padding: 0 20px;
 }

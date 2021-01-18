@@ -13,11 +13,7 @@ color: #ad6938   (dunkelbraun)
 @import 'components/nav.css';
 @import 'components/flexcontainer.css';
 @import 'components/contact-style.css';
+@import 'components/style-beruflicherwerdegang.css';
 @import 'components/container-header.ss';
 @import 'components/container-footer.css';
-@import 'components/style-edvkenntnisse';
-@import 'components/style-sprachkenntnisse';
-@import 'components/style-beruflicherwerdegang.css';
-@import 'components/style-weiterekenntnisse.css';
-@import 'components/style-studium';
 @import 'components/img.css';

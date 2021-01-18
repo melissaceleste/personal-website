@@ -1,17 +1,17 @@
 @media (max-width: 480px) {
   body {
-    margin: 60px 20px;
+    margin: 0;
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 801px) {
   body {
-    margin: 60px 100px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 1190px) {
   body {
-    margin: 60px 100px;
+    margin: 0;
   }
 }

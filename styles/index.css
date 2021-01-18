@@ -10,6 +10,7 @@ color: #ad6938   (dunkelbraun)
 @import 'base.css';
 @import 'components/header.css';
 @import 'components/body.css';
+@import 'components/nav.css';
 @import 'components/flexcontainer.css';
 @import 'components/contact-style.css';
 @import 'components/container-header.ss';

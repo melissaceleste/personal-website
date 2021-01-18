@@ -1,15 +1,53 @@
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 530px) {
+  .contact-style {
+    margin: 0px 90px;
+  }
+}
+@media only screen and (min-width: 690px) {
   .contact-style {
     margin: 0px 140px;
   }
 }
-@media only screen and (min-width: 1190px) {
+
+@media only screen and (min-width: 805px) {
+  .contact-style {
+    margin: 0px 150px;
+  }
+}
+@media only screen and (min-width: 830px) {
   .contact-style {
     margin: 0px 160px;
   }
 }
-@media only screen and (min-width: 1300px) {
+
+@media only screen and (min-width: 850px) {
   .contact-style {
     margin: 0px 260px;
+  }
+}
+@media only screen and (min-width: 1040px) {
+  .contact-style {
+    margin: 0px 280px;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .contact-style {
+    margin: 0px 300px;
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  .contact-style {
+    margin: 0px 320px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .contact-style {
+    margin: 0px 360px;
+  }
+}
+@media only screen and (min-width: 1750px) {
+  .contact-style {
+    margin: 0px 6000px;
   }
 }

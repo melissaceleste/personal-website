@@ -1,0 +1,13 @@
+@media only screen and (min-width: 801px) {
+  .containerflex1 {
+    display: flex;
+  }
+
+  .containerflex2 {
+    display: flex;
+  }
+
+  .containerflex3 {
+    display: flex;
+  }
+}
